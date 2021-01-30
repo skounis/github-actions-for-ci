@@ -53,7 +53,6 @@ describe('Game', () => {
       expect(game.board[0][0]).toBe('X')
     })
   })
-
   
   describe('nextPlayer', () => {
     it('Sets the current player to be whoever it is not', async () => {
@@ -64,7 +63,6 @@ describe('Game', () => {
       expect(game.player).toBe('Nate')
     })
   })
-  
 
   describe('hasWinner', () => {
     it('Wins if any row is filled', async () => {
